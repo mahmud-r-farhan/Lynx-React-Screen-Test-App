@@ -6,7 +6,9 @@
     "build": "rspeedy build",
     "dev": "rspeedy dev",
     "preview": "rspeedy preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "sass": "sass src/App.scss src/App.css",
+    "sass:watch": "sass --watch src/App.scss src/styles/App.css"
   },
   "dependencies": {
     "@lynx-js/react": "^0.109.1"
@@ -17,6 +19,7 @@
     "@lynx-js/rspeedy": "^0.9.8",
     "@testing-library/jest-dom": "^6.6.3",
     "jsdom": "^26.1.0",
+    "sass": "^1.89.1",
     "vitest": "^3.1.4"
   },
   "engines": {

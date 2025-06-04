@@ -6,6 +6,7 @@
 # Dist
 node_modules
 dist/
+package-lock.json
 
 # IDE
 .vscode/*
