@@ -31,12 +31,14 @@ npm install
 ##  Project Structure
 
 ```
-lynx-color-tap/
+Lynx-React-Screen-Test-App/
 ├── src/
-│	├── App.css         # Styles & gradients
-│   └── App.jsx         # Main App logic
-├── lynx.config.json        # Lynx configuration
-├── README.md          
+│ 	├── App.css 		# Styles & gradients
+│ 	├── App.jsx 		# Main App logic
+│ 	└── App.scss 		# Styles & gradients
+├── lynx.config.json 	# Lynx configuration
+├── package.json
+├── README.md
 └── vitest.config.js
 
 ```
